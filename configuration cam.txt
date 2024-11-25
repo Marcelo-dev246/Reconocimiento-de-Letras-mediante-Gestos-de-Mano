@@ -1,0 +1,9 @@
+
+# Conecta con la cámara de tu pc
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+
+# Conecta con la cámara de tu celular, el ip puede variar segun la app del celular
+cap = cv2.VideoCapture("http://192.168.1.100:8080/video") 
+
+# Cambiar el índice según la cámara que desees usar (0 para la primera, 1 para la segunda, etc.)
+cap = cv2.VideoCapture(0)  # Usar la cámara web
